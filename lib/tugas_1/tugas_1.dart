@@ -13,7 +13,7 @@ class Tugas1Flutter extends StatelessWidget {
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: const [
+        children: [
           Text(
             'Nama : Muhammad Alfin Haq',
             style: TextStyle(
@@ -33,6 +33,7 @@ class Tugas1Flutter extends StatelessWidget {
             fontSize: 25,
             color: Colors.white)
           ),
+          Image.asset("assets/images/hidupJokowi.jpg")
         ],
       ),
       backgroundColor: const Color(0xFF00357a),
