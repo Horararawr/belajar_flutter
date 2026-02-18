@@ -1,5 +1,5 @@
 
-import 'package:belajar_flutter/tugas_3.dart/tugas_3.dart';
+import 'package:belajar_flutter/tugas_4/tugas_4.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Tugas3Flutter(),
+      home: const Tugas4Flutter(),
     );
   }
 }
