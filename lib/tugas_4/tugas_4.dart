@@ -9,9 +9,13 @@ class Tugas4Flutter extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Tugas 4 Flutter"),
-          backgroundColor: Colors.indigo[50],
+          backgroundColor: const Color(0xFF00357a),
+          centerTitle: true,
           elevation: 1,
+          title: const Text(
+            "Tugas 4 Flutter",
+            style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600, color: Color(0xFFbc9c22)),
+          ),
         ),
         // 1. Root Widget
         body: ListView(
@@ -20,7 +24,7 @@ class Tugas4Flutter extends StatelessWidget {
             // 2. Formulir Pengguna
             const Text(
               "Al Haq Kitchen - Order Form",
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xFF3F4E7A)),
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xFFbc9c22)),
             ),
             const SizedBox(height: 20),
             const TextField(
@@ -54,7 +58,7 @@ class Tugas4Flutter extends StatelessWidget {
             const SizedBox(height: 30),
             const Text(
               "Daftar Menu Favorit",
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xFF3F4E7A)),
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xFFbc9c22)),
             ),
             const SizedBox(height: 10),
 
