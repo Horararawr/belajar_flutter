@@ -10,14 +10,14 @@ class Tugas2Flutter extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: const Color(0xff00357a),
         centerTitle: true,
-        title: const Text(
+        title:  Text(
           "Profil Aplikasi", 
           style: TextStyle(color: Colors.yellow, fontWeight: FontWeight.bold)
-        ),
+        ), 
       ),
       body: Column(
         children: [
-          const SizedBox(height: 30), 
+         SizedBox(height: 30), 
 
           // 2. Baris 1
           const Center(
@@ -27,7 +27,7 @@ class Tugas2Flutter extends StatelessWidget {
             ),
           ),
 
-          const SizedBox(height: 20),
+         SizedBox(height: 20),
 
           // 3. Baris 2
           Padding(
@@ -48,10 +48,10 @@ class Tugas2Flutter extends StatelessWidget {
             ),
           ),
 
-          const SizedBox(height: 10),
+         SizedBox(height: 10),
 
           // 4. Baris 3
-          const Padding(
+            Padding(
             padding: EdgeInsets.symmetric(horizontal: 25),
             child: Row(
               children: [
@@ -65,7 +65,7 @@ class Tugas2Flutter extends StatelessWidget {
             ),
           ),
 
-          const SizedBox(height: 25),
+          SizedBox(height: 25),
 
           // 5. Baris 4
           Padding(
@@ -99,8 +99,8 @@ class Tugas2Flutter extends StatelessWidget {
           ),
 
           // 6. Baris 5
-          const SizedBox(height: 30),
-          const Padding(
+         SizedBox(height: 30),
+         Padding(
             padding: EdgeInsets.symmetric(horizontal: 20),
             child: Text(
               "Al-Haq Kitchen adalah bisnis kuliner yang menyediakan berbagai macam hidangan lezat dengan cita rasa autentik. Kami berkomitmen untuk memberikan pengalaman makan yang tak terlupakan bagi setiap pelanggan kami. Dengan hadirnya Al-Haq Connect, aplikasi ini hadir untuk mempermudah pelanggan dalam memesan makanan dan mengakses informasi bisnis secara langsung.",
