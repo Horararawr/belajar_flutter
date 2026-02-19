@@ -107,7 +107,7 @@ class _Tugas5FlutterState extends State<Tugas5Flutter> {
               },
               onLongPress: () {
                 print("Tahan lama");
-                setState(() => _angka -= 1);
+                setState(() => _angka += 3);
               },
               child: Container(
                 width: 100,
