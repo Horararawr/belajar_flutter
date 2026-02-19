@@ -1,5 +1,5 @@
 
-import 'package:belajar_flutter/tugas_5/tugas5.dart';
+import 'package:belajar_flutter/tugas_5/tugass5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
