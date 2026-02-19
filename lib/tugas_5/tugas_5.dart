@@ -14,6 +14,8 @@ class _Tugas5FlutterState extends State<Tugas5Flutter> {
   bool _tampilDetail = false;
   bool _isKotakDiklik = false;
   int _angka = 0;
+  
+  get xFFbc9c22 => null;
 
   @override
   Widget build(BuildContext context) {
@@ -82,19 +84,19 @@ class _Tugas5FlutterState extends State<Tugas5Flutter> {
                   _isKotakDiklik = !_isKotakDiklik;
                 });
               },
+              splashColor: const Color(0xFFbc9c22),
               child: Container(
-                width: 150,
-                height: 50,
-                color: const Color(0xFFbc9c22),
+                width: double.infinity,
+                height: 100,
                 alignment: Alignment.center,
-                child: const Text("Ketuk kotak ini"),
+                child: const Text("Follow Us!"),
               ),
             ),
-            if (_isKotakDiklik) const Text("Kotak sudah disentuh"),
+            if (_isKotakDiklik) const Text("Lets Go!"),
             const Divider(),
 
             // 5. Bikin GestureDetector
-            const Text("Gesture Sensor:"),
+            const Text("Tambah Pesanan:"),
             const SizedBox(height: 10),
             GestureDetector(
               onTap: () {
@@ -112,12 +114,16 @@ class _Tugas5FlutterState extends State<Tugas5Flutter> {
               child: Container(
                 width: 100,
                 height: 100,
-                color: Colors.orange,
+                decoration: BoxDecoration(
+                  color: Colors.orange,
+                  borderRadius: BorderRadius.circular(8),
+                ),
                 alignment: Alignment.center,
                 child: Text("$_angka", style: const TextStyle(fontSize: 40, color: Colors.white)),
               ),
             ),
-            const Text("Tap(+1), DoubleTap(+2), Hold(+3)"),
+            const SizedBox(height: 10),
+            const Text("1. Tap(+1) untuk pesan 1 pax\n2. DoubleTap(+2) untuk 2 pax\n3. Hold(+3) untuk 3 pax sekaligus"),
           ],
         ),
       ),
