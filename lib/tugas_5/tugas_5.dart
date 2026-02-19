@@ -14,8 +14,6 @@ class _Tugas5FlutterState extends State<Tugas5Flutter> {
   bool _tampilDetail = false;
   bool _isKotakDiklik = false;
   int _angka = 0;
-  
-  get xFFbc9c22 => null;
 
   @override
   Widget build(BuildContext context) {
